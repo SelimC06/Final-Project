@@ -7,8 +7,8 @@ NFL_plot <- NFL_plot |>
   ggplot(aes(x = Year, y = `Average Salary`, color = Position)) + 
   geom_line(size = 2) + geom_point(alpha = 0.7, size =3, color = "Black") +
   scale_y_continuous(labels=scales::dollar_format()) + 
-  labs(title = "Average Salary by Positions",
-       subtitle = "Over years the average salary has been increasing for all positions",
+  labs(title = "Average Salary by Category",
+       subtitle = "Over years the average salary has been increasing for all Categories",
        y = "Salary", fill = "Position",
        caption = "Source: Sportrac")
   
