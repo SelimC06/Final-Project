@@ -1,0 +1,44 @@
+{
+  "articles": [
+    {
+      "path": "about.html",
+      "title": "Sources",
+      "author": [],
+      "contents": "\r\n\r\n\r\n\r\n",
+      "last_modified": "2022-08-14T17:38:58-05:00"
+    },
+    {
+      "path": "Defensive_Positions.html",
+      "title": "Defensive Positions",
+      "author": [],
+      "date": "`r Sys.Date()`",
+      "contents": "\r\n\r\n\r\n\r\n“TEXT”\r\n\r\n\r\n\r\n",
+      "last_modified": "2022-08-14T17:39:00-05:00"
+    },
+    {
+      "path": "index.html",
+      "title": "Final Project",
+      "description": "Welcome to the website. I hope you enjoy it!\n",
+      "author": [],
+      "contents": "\r\n\r\n\r\n\r\n“TEXT”\r\n\r\n\r\n\r\n",
+      "last_modified": "2022-08-14T17:39:01-05:00"
+    },
+    {
+      "path": "Offensive_Positions.html",
+      "title": "Offensive Positions",
+      "author": [],
+      "date": "`r Sys.Date()`",
+      "contents": "\r\n\r\n\r\n\r\n“TEXT”\r\n\r\n\r\n\r\n",
+      "last_modified": "2022-08-14T17:39:02-05:00"
+    },
+    {
+      "path": "Special_Positions.html",
+      "title": "Special Teams Positions",
+      "author": [],
+      "date": "`r Sys.Date()`",
+      "contents": "\r\n\r\n\r\n\r\n“TEXT”\r\n\r\n\r\n\r\n",
+      "last_modified": "2022-08-14T17:39:03-05:00"
+    }
+  ],
+  "collections": []
+}

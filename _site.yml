@@ -1,0 +1,20 @@
+name: "."
+title: "Final Project Draft"
+description: |
+  Final Project Draft
+output_dir: "docs"
+navbar:
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "More"
+      menu:
+      - text: "Offense"
+        href: Offensive_Positions.html
+      - text: "Defense"
+        href: Defensive_Positions.html
+      - text: "Special Teams"
+        href: Special_Positions.html
+    - text: "Sources"
+      href: about.html
+output: distill::distill_article

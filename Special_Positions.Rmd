@@ -1,0 +1,15 @@
+---
+title: "Special Teams Positions"
+date: "`r Sys.Date()`"
+output: distill::distill_article
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+```{r}
+read_rds("NFL_Special_plot.rds")
+```
+
+**"TEXT"**
