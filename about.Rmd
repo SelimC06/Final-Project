@@ -6,3 +6,11 @@ title: "Sources"
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
+### NFL player Salary
+* [Sportrac](https://www.spotrac.com/nfl/rankings/cash/)
+
+### Github
+* [Github](https://github.com/SelimC06)
+
+### Kanes Data Science Course
+* [Course](https://bootcamp.davidkane.info/)
