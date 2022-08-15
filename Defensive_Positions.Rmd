@@ -9,7 +9,7 @@ knitr::opts_chunk$set(echo = FALSE)
 library(tidyverse)
 ```
 
-```{r}
+```{r, out.width="200%"}
 read_rds("NFL_Defense_plot.rds")
 ```
 

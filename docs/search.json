@@ -5,7 +5,7 @@
       "title": "Sources",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2022-08-14T18:21:07-05:00"
+      "last_modified": "2022-08-14T19:37:26-05:00"
     },
     {
       "path": "Defensive_Positions.html",
@@ -13,7 +13,7 @@
       "author": [],
       "date": "`r Sys.Date()`",
       "contents": "\r\n\r\n\r\n\r\n“TEXT”\r\n\r\n\r\n\r\n",
-      "last_modified": "2022-08-14T18:21:09-05:00"
+      "last_modified": "2022-08-14T19:37:28-05:00"
     },
     {
       "path": "index.html",
@@ -21,7 +21,7 @@
       "description": "Observing NFL players Average Salary by Category over the years 2014-2020 \n",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n“TEXT”\r\n\r\n\r\n\r\n",
-      "last_modified": "2022-08-14T18:21:10-05:00"
+      "last_modified": "2022-08-14T19:37:30-05:00"
     },
     {
       "path": "Offensive_Positions.html",
@@ -29,7 +29,7 @@
       "author": [],
       "date": "`r Sys.Date()`",
       "contents": "\r\n\r\n\r\n\r\n“TEXT”\r\n\r\n\r\n\r\n",
-      "last_modified": "2022-08-14T18:21:11-05:00"
+      "last_modified": "2022-08-14T19:37:31-05:00"
     },
     {
       "path": "Special_Positions.html",
@@ -37,7 +37,7 @@
       "author": [],
       "date": "`r Sys.Date()`",
       "contents": "\r\n\r\n\r\n\r\n“TEXT”\r\n\r\n\r\n\r\n",
-      "last_modified": "2022-08-14T18:21:12-05:00"
+      "last_modified": "2022-08-14T19:37:32-05:00"
     }
   ],
   "collections": []

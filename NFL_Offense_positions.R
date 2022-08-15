@@ -2,7 +2,7 @@ library(readxl)
 library(tidyverse)
 library(scales)
 NFL_Offense_plot <- read_excel("NFL4.xlsx")
-NFL_Offense_plot$Position = factor(NFL_Offense_plot$Position, levels = c("QB", "C", "WR", "TE", "RB"))
+NFL_Offense_plot$Position = factor(NFL_Offense_plot$Position, labels = c("Quarterback", "Center", "Wide Receiver", "Tight End", "Running Back") ,levels = c("QB", "C", "WR", "TE", "RB"))
 NFL_Offense_plot <- NFL_Offense_plot |>
   ggplot(aes(x = Year, y = `Average Salary`, color = Position)) + 
   geom_line(size = 2) + geom_point(alpha = 0.7, size =3, color = "Black") +
