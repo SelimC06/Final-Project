@@ -5,7 +5,7 @@
       "title": "Sources",
       "author": [],
       "contents": "\r\nNFL player Salary\r\nSportrac\r\nGithub\r\nGithub\r\nKanes Data Science Course\r\nCourse\r\n\r\n\r\n\r\n",
-      "last_modified": "2022-08-14T19:55:02-05:00"
+      "last_modified": "2022-08-14T19:58:27-05:00"
     },
     {
       "path": "Defensive_Positions.html",
@@ -13,7 +13,7 @@
       "author": [],
       "date": "`r Sys.Date()`",
       "contents": "\r\n\r\n\r\n\r\n“TEXT”\r\n\r\n\r\n\r\n",
-      "last_modified": "2022-08-14T19:55:04-05:00"
+      "last_modified": "2022-08-14T19:58:29-05:00"
     },
     {
       "path": "index.html",
@@ -21,7 +21,7 @@
       "description": "Observing NFL players Average Salary by Category over the years 2014-2020 \n",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n“TEXT”\r\n\r\n\r\n\r\n",
-      "last_modified": "2022-08-14T19:55:05-05:00"
+      "last_modified": "2022-08-14T19:58:31-05:00"
     },
     {
       "path": "Offensive_Positions.html",
@@ -29,7 +29,7 @@
       "author": [],
       "date": "`r Sys.Date()`",
       "contents": "\r\n\r\n\r\n\r\n“TEXT”\r\n\r\n\r\n\r\n",
-      "last_modified": "2022-08-14T19:55:06-05:00"
+      "last_modified": "2022-08-14T19:58:32-05:00"
     },
     {
       "path": "Special_Positions.html",
@@ -37,7 +37,7 @@
       "author": [],
       "date": "`r Sys.Date()`",
       "contents": "\r\n\r\n\r\n\r\n“TEXT”\r\n\r\n\r\n\r\n",
-      "last_modified": "2022-08-14T19:55:07-05:00"
+      "last_modified": "2022-08-14T19:58:33-05:00"
     }
   ],
   "collections": []
