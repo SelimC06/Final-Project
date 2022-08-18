@@ -5,7 +5,7 @@
       "title": "Selim Coskunuzer",
       "author": [],
       "contents": "\r\nAbout Me\r\nMy name is Selim Coskunuzer. I am a junior at Liberty High School\r\nlocated in Dallas, Texas. I am passionate about Computer Science and\r\nMachine Learning.\r\nAbout the Project\r\nI came up with this project idea because I been watching American\r\nfootball for some time now and I wanted to calculate the difference in\r\nplayers salaries by their position to see if there was a significant\r\ndifference. I hope with this information NFL coaches, fans, etc. can see\r\nthat these players will be getting paid more in the future as time goes\r\non.\r\nContact Info\r\nEmail: scoskunuzer@gmail.com\r\nGithub: https://github.com/SelimC06\r\n\r\n\r\n\r\n",
-      "last_modified": "2022-08-18T18:46:25-05:00"
+      "last_modified": "2022-08-18T18:58:55-05:00"
     },
     {
       "path": "Defensive_Positions.html",
@@ -13,7 +13,7 @@
       "author": [],
       "date": "`r Sys.Date()`",
       "contents": "\r\n\r\n\r\n\r\nFor the Defensive plot I added the 5 most important\r\npositions because If I added all the positions the graph would be too\r\ncomplicated. From the graph we can interpret that all positions are\r\ngetting near equal average salary but the increase and decrease for all\r\npositions is extremely different from each other, for example\r\nStrong Safety increased by 200% in 2016. Also the\r\nlowest average salary in 2020, cornerback, is an important part of the\r\ndefensive side but still they are getting paid lower than any other. If\r\nyou like to see each player’s salary by year you can interact with the\r\nplot below.\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
-      "last_modified": "2022-08-18T18:46:29-05:00"
+      "last_modified": "2022-08-18T18:58:59-05:00"
     },
     {
       "path": "index.html",
@@ -26,8 +26,8 @@
         }
       ],
       "date": "`r Sys.Date()`",
-      "contents": "\r\n\r\n\r\n\r\nThe following data was pulled from the sportrac website which gave\r\naccess to every players salary going back to 2011. I gathered that data\r\nand organized it into three category, offense, defense, and special\r\nteam. Some category might have less players than another category that’s\r\nwhy special teams is a lot below offense and defense. In conclusion I\r\nnoticed that in the graph each category has increased average salary\r\nover the years so we can predict in the future that salaries of NFL\r\nplayers will keep increasing past 2020.\r\n\r\n\r\n\r\n",
-      "last_modified": "2022-08-18T18:46:31-05:00"
+      "contents": "\r\n\r\n\r\n\r\nThe following data was pulled from the sportrac\r\nwebsite which gave access to every players salary going back to 2014. I\r\ngathered that data and organized it into three categories, offense,\r\ndefense, and special team but some category (special teams) might have\r\nless players than other category which is the reason it is a lot lower\r\nthan others. In conclusion I noticed that in the graph each category has\r\nincreased average salary over the years so we can predict in the future\r\nthat salaries of NFL players will keep increasing past 2020.\r\n\r\n\r\n\r\n",
+      "last_modified": "2022-08-18T18:59:01-05:00"
     },
     {
       "path": "Offensive_Positions.html",
@@ -35,7 +35,7 @@
       "author": [],
       "date": "`r Sys.Date()`",
       "contents": "\r\n\r\n\r\n\r\nIn this graph I put 5 of the most important positions in the\r\nOffensive side because the others had very low average\r\nor were not as important. The main reason why the average salary of\r\nQuarterbacks compared to the other positions is a\r\ntremendous amount is because quarterbacks require a ton of skills and\r\nthey are known as the leader for the offense category. In conclusion we\r\ncan estimate that the quarterback’s salary will keep increasing yearly\r\nand the other positions will slowly increase behind. If you like to see\r\neach player’s salary by year you can interact with the plot below.\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
-      "last_modified": "2022-08-18T18:46:34-05:00"
+      "last_modified": "2022-08-18T18:59:04-05:00"
     },
     {
       "path": "Sources.html",
@@ -43,15 +43,15 @@
       "description": "The dataset source of this project can be found here.",
       "author": [],
       "contents": "\r\n-The dataset for NFL player salary is from this website (Sportrac)\r\n-To learn more about American Football (wikipedia)\r\n-Do you want to learn about Rstudio? Well, click this link (Course)\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
-      "last_modified": "2022-08-18T18:46:35-05:00"
+      "last_modified": "2022-08-18T18:59:04-05:00"
     },
     {
       "path": "Special_Positions.html",
       "title": "Special Teams Positions",
       "author": [],
       "date": "`r Sys.Date()`",
-      "contents": "\r\n\r\n\r\n\r\n“TEXT”\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
-      "last_modified": "2022-08-18T18:46:36-05:00"
+      "contents": "\r\n\r\n\r\n\r\nThe Special Teams only has 3 positions which are\r\nessential for the team to succeed. The reason why they are the lowest\r\npaid out of the three category is because they play for a short amount\r\nof time of the game. Long snapper is the lowest paid\r\nposition in all positions, the average is less than a million. If you\r\nlike to see each player’s salary by year you can interact with the plot\r\nbelow.\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
+      "last_modified": "2022-08-18T18:59:06-05:00"
     }
   ],
   "collections": []

@@ -16,7 +16,7 @@ library(plotly)
 read_rds("NFL_Special_plot.rds")
 ```
 
-**"TEXT"**
+The **Special Teams** only has 3 positions which are essential for the team to succeed. The reason why they are the lowest paid out of the three category is because they play for a short amount of time of the game. **Long snapper** is the lowest paid position in all positions, the average is less than a million. If you like to see each player's salary by year you can interact with the plot below.
 
 ```{r}
 NFL_interactive_plot <- read_excel("NFL12.xlsx")

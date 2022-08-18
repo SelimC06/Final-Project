@@ -20,4 +20,4 @@ library(knitr)
 read_rds("NFL_plot.rds")
 ```
 
-The following data was pulled from the sportrac website which gave access to every players salary going back to 2011. I gathered that data and organized it into three category, offense, defense, and special team. Some category might have less players than another category that's why special teams is a lot below offense and defense. In conclusion I noticed that in the graph each category has increased average salary over the years so we can predict in the future that salaries of NFL players will keep increasing past 2020.
+The following data was pulled from the **sportrac** website which gave access to every players salary going back to 2014. I gathered that data and organized it into three categories, offense, defense, and special team but some category (special teams) might have less players than other category which is the reason it is a lot lower than others. In conclusion I noticed that in the graph each category has increased average salary over the years so we can predict in the future that salaries of NFL players will keep increasing past 2020.
