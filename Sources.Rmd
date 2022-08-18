@@ -1,0 +1,19 @@
+---
+title: "Sources"
+description:
+  The dataset source of this project can be found here.
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+-The dataset for NFL player salary is from this website ([Sportrac](https://www.spotrac.com/nfl/rankings/cash/))
+
+-To learn more about American Football ([wikipedia](https://en.wikipedia.org/wiki/American_football))
+
+-Do you want to learn about Rstudio? Well, click this link ([Course](https://bootcamp.davidkane.info/))
+
+```{r}
+include_graphics("V3ESEGEGN_.jpeg")
+```

@@ -16,5 +16,7 @@ navbar:
       - text: "Special Teams"
         href: Special_Positions.html
     - text: "Sources"
-      href: about.html
+      href: sources.html
+    - text: "About Me"
+      href: about_me.html
 output: distill::distill_article

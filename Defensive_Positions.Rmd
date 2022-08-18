@@ -6,11 +6,32 @@ output: distill::distill_article
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
+library(readxl)
 library(tidyverse)
+library(scales)
+library(plotly)
 ```
 
 ```{r, out.width="200%"}
 read_rds("NFL_Defense_plot.rds")
 ```
 
-**"TEXT"**
+For the **Defensive plot** I added the 5 most important positions because If I added all the positions the graph would be too complicated. From the graph we can interpret that all positions are getting near equal average salary but the increase and decrease for all positions is extremely different from each other, for example **Strong Safety** increased by 200% in 2016. Also the lowest average salary in 2020, cornerback, is an important part of the defensive side but still they are getting paid lower than any other. If you like to see each player's salary by year you can interact with the plot below.
+
+```{r}
+NFL_interactive_plot <- read_excel("NFL11.xlsx")
+options(scipen = 100)
+NFL_interactive_plot$Position = factor(NFL_interactive_plot$Position, labels = c("Defensive End", "Defensive Attack", "Outside Linebacker", "Cornerback", "Free Safety", "Inner Linebacker", "Strong Safety", "Safety"), levels = c("DE", "DT", "OLB", "CB", "FS", "ILB", "SS", "S"))
+NFL_interactive_plot <- NFL_interactive_plot |>
+  ggplot(aes(x = Year, y = Salary, col = Position, text = paste("Year: ", Year, "\nSalary:", Salary, "\nPosition:", Position, "\nPlayer:", Player))) + 
+  geom_jitter(size = 2) + 
+  scale_y_continuous(labels = label_number(suffix = " M", scale = 1e-6)) + 
+  labs(title = "Defensive Player Interactive Plot",
+       subtitle = "Over years the average salary has been increasing for all categories",
+       y = "Salary", fill = "Position",
+       caption = "Source: Sportrac")
+
+NFL_interactive_plot = ggplotly(NFL_interactive_plot, tooltip = "text")
+NFL_interactive_plot
+```
+

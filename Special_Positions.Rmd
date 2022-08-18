@@ -6,6 +6,10 @@ output: distill::distill_article
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
+library(readxl)
+library(tidyverse)
+library(scales)
+library(plotly)
 ```
 
 ```{r, out.width="200%"}
@@ -13,3 +17,20 @@ read_rds("NFL_Special_plot.rds")
 ```
 
 **"TEXT"**
+
+```{r}
+NFL_interactive_plot <- read_excel("NFL12.xlsx")
+options(scipen = 100)
+NFL_interactive_plot$Position = factor(NFL_interactive_plot$Position, labels = c("Kicker", "Punter", "Long Snapper"), levels = c("K", "P", "LS"))
+NFL_interactive_plot <- NFL_interactive_plot |>
+  ggplot(aes(x = Year, y = Salary, col = Position, text = paste("Year: ", Year, "\nSalary:", Salary, "\nPosition:", Position, "\nPlayer:", Player))) + 
+  geom_jitter(size = 2) + 
+  scale_y_continuous(labels = label_number(suffix = " M", scale = 1e-6)) + 
+  labs(title = "Special Team Player Interactive Plot",
+       y = "Salary", fill = "Position",
+       caption = "Source: Sportrac")
+
+NFL_interactive_plot = ggplotly(NFL_interactive_plot, tooltip = "text")
+NFL_interactive_plot
+```
+

@@ -6,10 +6,31 @@ output: distill::distill_article
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
+library(readxl)
+library(tidyverse)
+library(scales)
+library(plotly)
 ```
 
 ```{r, out.width="200%"}
 read_rds("NFL_Offense_plot.rds")
 ```
 
-**"TEXT"**
+In this graph I put 5 of the most important positions in the **Offensive side** because the others had very low average or were not as important. The main reason why the average salary of **Quarterbacks** compared to the other positions is a tremendous amount is because quarterbacks require a ton of skills and they are known as the leader for the offense category. In conclusion we can estimate that the quarterback's salary will keep increasing yearly and the other positions will slowly increase behind. If you like to see each player's salary by year you can interact with the plot below.
+
+```{r}
+NFL_interactive_plot <- read_excel("NFL10.xlsx")
+options(scipen = 100)
+NFL_interactive_plot$Position = factor(NFL_interactive_plot$Position, labels = c("Quarterback", "Left Tackle", "Wide Receiver", "Running Back", "Right Tackle", "Center", "Guard", "Tight End", "Full Back"), levels = c("QB", "LT", "WR", "RB", "RT", "C", "G", "TE", "FB"))
+NFL_interactive_plot <- NFL_interactive_plot |>
+  ggplot(aes(x = Year, y = Salary, col = Position, text = paste("Year: ", Year, "\nSalary:", Salary, "\nPosition:", Position, "\nPlayer:", Player))) + 
+  geom_jitter(size = 2) + 
+  scale_y_continuous(labels = label_number(suffix = " M", scale = 1e-6)) + 
+  labs(title = "Offensive Player Interactive Plot",
+       subtitle = "Over years the average salary has been increasing for all categories",
+       y = "Salary", fill = "Position",
+       caption = "Source: Sportrac")
+
+ggplotly(NFL_interactive_plot, tooltip = "text")
+```
+

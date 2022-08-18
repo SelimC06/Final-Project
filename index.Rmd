@@ -1,17 +1,23 @@
 ---
-title: "Final Project"
+title: "Analyzing NFL players Average Salary by Category"
 description: |
-  Observing NFL players Average Salary by Category over the years 2014-2020 
+  This project examines the statistics of NFL players over the years 2014-2020
+author:
+  - name: Selim Coskunuzer
+date: "`r Sys.Date()`"
 site: distill::distill_website
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 library(tidyverse)
+library(distill)
+library(ggthemes)
+library(knitr)
 ```
 
 ```{r, out.width="200%"}
 read_rds("NFL_plot.rds")
 ```
 
-**"TEXT"**
+The following data was pulled from the sportrac website which gave access to every players salary going back to 2011. I gathered that data and organized it into three category, offense, defense, and special team. Some category might have less players than another category that's why special teams is a lot below offense and defense. In conclusion I noticed that in the graph each category has increased average salary over the years so we can predict in the future that salaries of NFL players will keep increasing past 2020.
